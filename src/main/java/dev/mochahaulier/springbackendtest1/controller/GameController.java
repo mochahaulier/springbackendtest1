@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @SpringBootApplication(exclude = { DataSourceAutoConfiguration.class })
-@CrossOrigin
+@CrossOrigin("https://mochahaulier.github.io")
 @RestController
 @AllArgsConstructor
 public class GameController {
