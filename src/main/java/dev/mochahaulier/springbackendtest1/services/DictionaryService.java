@@ -43,7 +43,7 @@ public class DictionaryService {
             String line = null;
 
             while ((line = br.readLine()) != null) {
-                hiddenWords.add(line);
+                validWords.add(line);
             }
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
