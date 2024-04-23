@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @SpringBootApplication(exclude = { DataSourceAutoConfiguration.class })
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin
 @RestController
 @AllArgsConstructor
 public class GameController {
